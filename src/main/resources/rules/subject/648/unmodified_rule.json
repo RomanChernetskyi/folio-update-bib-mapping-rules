@@ -1,0 +1,46 @@
+[
+  {
+    "entity": [
+      {
+        "target": "subjects.value",
+        "description": "Subject Headings",
+        "applyRulesOnConcatenatedData": true,
+        "subfield": [
+          "a",
+          "x",
+          "y",
+          "z",
+          "v"
+        ],
+        "rules": [
+          {
+            "conditions": [
+              {
+                "type": "trim_period, trim"
+              }
+            ]
+          }
+        ],
+        "subFieldDelimiter": [
+          {
+            "value": "--",
+            "subfields": [
+              "a",
+              "x",
+              "y",
+              "z",
+              "v"
+            ]
+          }
+        ]
+      },
+      {
+        "target": "subjects.authorityId",
+        "description": "Authority ID that controlling the subject",
+        "subfield": [
+          "9"
+        ]
+      }
+    ]
+  }
+]

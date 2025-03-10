@@ -1,0 +1,19 @@
+{
+  "target": "identifiers.identifierTypeId",
+  "description": "Type for Canceled LCCN",
+  "subfield": [
+    "z"
+  ],
+  "rules": [
+    {
+      "conditions": [
+        {
+          "type": "set_identifier_type_id_by_name",
+          "parameter": {
+            "name": "Canceled LCCN"
+          }
+        }
+      ]
+    }
+  ]
+}

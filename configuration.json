@@ -1,0 +1,7 @@
+{
+  "okapiUrl": "https://folio-snapshot-okapi.dev.folio.org",
+  "tenant": "diku",
+  "centralTenant": "consortia",
+  "username": "diku_admin",
+  "password": "secret"
+}
