@@ -25,7 +25,8 @@ public class MappingRulesUtilTest {
             { "rules/expectedRules.json", "rules/baseRules.json" },
             { "rules/expectedRulesWithCustomModeOfIssuance.json", "rules/baseRulesWithCustomModeOfIssuance.json" },
             { "rules/expectedRules.json", "rules/baseRulesWithoutModeOfIssuance.json" },
-            { "rules/expectedRulesWithout001.json", "rules/baseRulesWithout001.json" }
+            { "rules/expectedRulesWithout001.json", "rules/baseRulesWithout001.json" },
+            { "rules/expectedRules.json", "rules/expectedRules.json" }
         });
     }
 
